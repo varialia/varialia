@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head>
+<meta charset="utf-8">
+<meta name="theme-color" content="#041F4E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='265%20165%20550%20550'%3E%3Crect%20x='265'%20y='165'%20width='550'%20height='550'%20rx='100'%20fill='%23041F4E'/%3E%3Cpath%20fill='%23fff'%20d='M380%20343H465L553%20565L643%20343H728L587%20695H520Z'/%3E%3Cpath%20fill='%23D9B664'%20d='M345%20303C290%20400%20300%20520%20390%20590C450%20635%20540%20635%20640%20590C700%20562%20740%20520%20765%20467C680%20520%20580%20566%20500%20568C400%20570%20320%20480%20345%20303Z'/%3E%3Cpath%20fill='%23D9B664'%20d='M364%20207%20L382%20231%20L411%20222%20L394%20247%20L411%20272%20L382%20263%20L364%20287%20L363%20257%20L335%20247%20L363%20237Z'/%3E%3C/svg%3E">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>VARIALIA | Pequenos achados, grandes ideias.</title>
+<meta name="description" content="Achadinhos, produtos úteis e acessórios encontrados em lojas parceiras. Descobre. Compara. Aproveita.">
+<meta property="og:title" content="VARIALIA | Pequenos achados, grandes ideias.">
+<meta property="og:description" content="Produtos úteis, novidades e achadinhos para facilitar tua rotina.">
+<meta property="og:type" content="website">
+<meta name="robots" content="index,follow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Poppins:wght@600;700&amp;display=swap" rel="stylesheet">
+<style>
+:root{--navy:#14243A;--cream:#F4F0E8;--orange:#FF6B35;--green:#DCE8DF;--card:#fff;--grey:#526071;--text:#14243A;--line:#e3ddd0;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--cream:#0f1a2a;--card:#182841;--text:#F4F0E8;--grey:#aebbcb;--line:#27395a;--green:#1d3a36}}
+:root[data-theme="dark"]{--cream:#0f1a2a;--card:#182841;--text:#F4F0E8;--grey:#aebbcb;--line:#27395a;--green:#1d3a36}
+html{scroll-padding-top:calc(env(safe-area-inset-top,0px) + 70px);scroll-behavior:smooth}
+*{box-sizing:border-box}
+body{margin:0;background:var(--cream);color:var(--text);font:400 16px/1.55 Inter,system-ui,sans-serif}
+h1,h2,h3,.logo b{font-family:Poppins,Inter,sans-serif;font-weight:700;line-height:1.15;margin:0}
+a{color:inherit}
+.wrap{max-width:1160px;margin:0 auto;padding:0 16px}
+:focus-visible{outline:3px solid var(--orange);outline-offset:2px;border-radius:6px}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--cream);border-bottom:1px solid var(--line)}
+.bar{display:flex;align-items:center;gap:12px;height:64px}
+.logo{display:flex;align-items:center;gap:8px;text-decoration:none}
+.logo b{font-size:1.2rem;letter-spacing:.12em}
+nav{display:flex;gap:18px;margin-left:12px}
+nav a{text-decoration:none;font-weight:500;color:var(--grey)}nav a:hover,nav a[aria-current]{color:var(--text)}
+.search{flex:1;max-width:340px;margin-left:auto}
+.search input{width:100%;padding:10px 14px;border:1px solid var(--line);border-radius:999px;background:var(--card);color:var(--text);font:inherit}
+.menu{display:none;background:none;border:1px solid var(--line);border-radius:10px;width:40px;height:40px;color:var(--text);font-size:1.2rem;cursor:pointer}
+@media(max-width:760px){nav{display:none;position:absolute;top:64px;left:0;right:0;background:var(--cream);flex-direction:column;padding:12px 16px;border-bottom:1px solid var(--line);margin:0}nav.open{display:flex}.menu{display:block}.search{max-width:none}.logo b{display:none}}
+.btn{display:inline-block;background:var(--orange);color:#14243A;font:600 .95rem Poppins,sans-serif;padding:13px 22px;border-radius:12px;text-decoration:none;border:0;cursor:pointer;transition:transform .15s,filter .15s}
+.btn:hover{filter:brightness(1.06);transform:translateY(-1px)}
+.btn.alt{background:transparent;border:2px solid var(--navy);color:var(--text)}
+.btn[aria-disabled=true]{background:var(--line);color:var(--grey);cursor:not-allowed;transform:none;filter:none}
+.hero{display:grid;gap:28px;padding:40px 0 24px;align-items:center}
+@media(min-width:800px){.hero{grid-template-columns:1.1fr .9fr;padding:64px 0 40px}}
+.hero h1{font-size:clamp(2rem,6vw,3.4rem)}.hero p{color:var(--grey);font-size:1.1rem;max-width:46ch}
+.hero .ctas{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}
+.collage{display:grid;grid-template-columns:1fr 1fr;gap:10px}.collage img{width:100%;border-radius:16px;aspect-ratio:1;object-fit:contain;background:var(--green)}.collage img:nth-child(2){transform:translateY(18px)}
+.eyebrow{font:600 .8rem Inter;letter-spacing:.14em;text-transform:uppercase;color:var(--orange)}
+section{padding:32px 0}
+.sh{display:flex;justify-content:space-between;align-items:end;gap:12px;margin-bottom:18px}.sh h2{font-size:clamp(1.4rem,4vw,2rem)}
+.cats{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}@media(min-width:800px){.cats{grid-template-columns:repeat(3,1fr)}}
+.cat{background:var(--green);border-radius:16px;padding:16px;text-decoration:none;display:flex;flex-direction:column;gap:6px;min-height:110px;transition:transform .15s}
+.cat:hover{transform:translateY(-2px)}.cat span{font-size:2rem}.cat b{font:600 .95rem Poppins}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}@media(min-width:760px){.grid{grid-template-columns:repeat(3,1fr);gap:18px}}@media(min-width:1040px){.grid{grid-template-columns:repeat(4,1fr)}}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;overflow:hidden;display:flex;flex-direction:column}
+.card img{width:100%;aspect-ratio:1;object-fit:contain;background:var(--green);display:block}
+.card .b{padding:12px;display:flex;flex-direction:column;gap:6px;flex:1}
+.card h3{font-size:.98rem}.card h3 a{text-decoration:none}.card p{margin:0;color:var(--grey);font-size:.85rem}
+.tag{font-size:.72rem;color:var(--grey);text-transform:uppercase;letter-spacing:.06em}
+.demo{font-size:.7rem;background:var(--green);color:var(--text);padding:2px 8px;border-radius:99px;align-self:flex-start}
+.price{font:700 1.05rem Poppins}.price s{font:400 .8rem Inter;color:var(--grey);margin-left:6px}
+.card .btn{margin-top:auto;text-align:center;padding:10px;font-size:.85rem}
+.note{font-size:.72rem;color:var(--grey)}
+.filters{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:18px}
+select,.filters label{padding:9px 12px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--text);font:inherit}
+.empty{text-align:center;padding:48px 16px;background:var(--card);border:1px dashed var(--line);border-radius:16px}.empty span{font-size:2.5rem}
+.sk{height:260px;border-radius:16px;background:var(--line);animation:p 1.2s infinite alternate}@keyframes p{to{opacity:.45}}
+.prod{display:grid;gap:24px}@media(min-width:800px){.prod{grid-template-columns:1fr 1fr}}
+.prod img{width:100%;border-radius:20px;background:var(--green);aspect-ratio:1;object-fit:contain}
+.prod .info{display:flex;flex-direction:column;gap:12px}
+.crumb{font-size:.85rem;color:var(--grey);margin:18px 0 0}
+.page{max-width:720px;padding:32px 0}.page h1{margin-bottom:12px}
+.land{background:var(--navy);color:#F4F0E8;border-radius:20px;padding:24px;display:flex;flex-wrap:wrap;gap:14px;align-items:center;justify-content:space-between}.land p{margin:4px 0 0;opacity:.85}
+footer{background:var(--navy);color:#F4F0E8;margin-top:40px;padding:36px 0 28px;font-size:.9rem}
+footer .cols{display:grid;gap:24px}@media(min-width:760px){footer .cols{grid-template-columns:1.4fr 1fr 1fr}}
+footer a{display:block;margin:6px 0;opacity:.9}footer p{opacity:.85;margin:8px 0}
+.toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--navy);color:#fff;padding:10px 16px;border-radius:10px;font-size:.9rem;z-index:50}
+.btn,.cat,.card,.menu{transition:transform .25s cubic-bezier(.2,.8,.2,1),filter .2s,box-shadow .25s}
+.btn:active,.cat:active,.menu:active{transform:scale(.95)}
+.cat:hover{transform:translateY(-4px)}
+.card:hover{transform:translateY(-4px);box-shadow:0 12px 26px rgba(20,36,58,.14)}
+.card img{transition:transform .6s cubic-bezier(.2,.8,.2,1)}.card:hover img{transform:scale(1.05)}
+.rv{opacity:0;transform:translateY(24px);transition:opacity .55s ease,transform .7s cubic-bezier(.2,.8,.2,1)}.rv.in{opacity:1;transform:none}
+body{font-size:14.5px}
+html{scroll-padding-top:calc(env(safe-area-inset-top,0px) + 60px)}
+.wrap{padding:0 14px}
+.bar{height:52px;gap:10px}
+.logo svg{width:26px;height:26px}.logo b{font-size:1rem}
+.search input{padding:8px 12px;font-size:.85rem}
+.menu{width:34px;height:34px;font-size:1rem;border-radius:9px}
+nav a{font-size:.85rem}
+@media(max-width:760px){nav{top:52px}}
+.btn{font-size:.78rem;padding:9px 16px;border-radius:10px}
+.btn.alt{border-width:1.5px}
+.hero{padding:22px 0 8px;gap:16px}
+@media(min-width:800px){.hero{padding:40px 0 20px}.collage{max-width:340px;justify-self:end}}
+@media(max-width:799px){.collage{display:none}}
+.hero h1{font-size:clamp(1.6rem,4.5vw,2.4rem)}.hero p{font-size:.95rem}
+.hero .ctas{margin-top:14px}
+section{padding:18px 0}
+.sh{margin-bottom:12px}.sh h2{font-size:1.15rem}.sh h1,.prod h1{font-size:1.4rem!important}.page h1{font-size:1.4rem}
+.eyebrow{font-size:.68rem}
+.cats{gap:8px}
+.cat{flex-direction:row;align-items:center;min-height:0;padding:10px 12px;gap:10px;border-radius:12px}.cat span{font-size:1.25rem}.cat b{font-size:.78rem}
+.grid{gap:10px}
+.card{border-radius:12px}.card .b{padding:10px;gap:4px}.card h3{font-size:.85rem}.card p{font-size:.74rem;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.card .btn{padding:8px;font-size:.72rem}.tag,.demo{font-size:.62rem}.price{font-size:.9rem}.note{font-size:.66rem}
+select,.filters label{padding:7px 10px;font-size:.82rem;border-radius:9px}.filters{gap:8px;margin-bottom:12px}
+.prod img{max-width:420px}.prod .info{gap:8px}
+.land{padding:16px;border-radius:14px}.land h3{font-size:1rem}
+.empty{padding:28px 14px}
+footer{padding:24px 0 20px;font-size:.78rem;margin-top:20px}
+.af{display:grid;gap:8px;margin-bottom:16px}.af input:not([type=checkbox]):not([type=file]),.af textarea,.af select{padding:9px 12px;border:1px solid var(--line);border-radius:9px;background:var(--card);color:var(--text);font:inherit;font-size:.85rem;width:100%}.two{display:grid;grid-template-columns:1fr 1fr;gap:8px}.arow{display:flex;gap:8px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:8px;margin-bottom:8px}.arow img{width:44px;height:44px;object-fit:contain;border-radius:8px;background:var(--green)}.arow b{flex:1;font-size:.82rem}.sm{padding:6px 10px!important;font-size:.7rem!important}
+.card img{aspect-ratio:4/3}
+:root{--navy:#041F4E;--orange:#D9B664;--green:#EFE8D4;--cream:#F7F4EC;--gold:#8E6F1C}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--cream:#041229;--card:#0A2152;--green:#13294f;--line:#1c3a73;--gold:#D9B664}}
+:root[data-theme="dark"]{--cream:#041229;--card:#0A2152;--green:#13294f;--line:#1c3a73;--gold:#D9B664}
+.lg{height:34px;width:auto;aspect-ratio:490/520;display:block;flex:none;color:var(--text)}footer .lg{color:#F4F0E8;height:32px}
+.eyebrow{color:var(--gold)}
+:focus-visible{outline-color:var(--gold)}
+html{-webkit-tap-highlight-color:transparent}
+body{-webkit-font-smoothing:antialiased;overscroll-behavior-y:none}
+header{background:color-mix(in srgb,var(--cream) 82%,transparent);-webkit-backdrop-filter:saturate(180%) blur(16px);backdrop-filter:saturate(180%) blur(16px);border-bottom:.5px solid var(--line)}
+.btn{border-radius:999px;touch-action:manipulation;transition:transform .4s cubic-bezier(.34,1.56,.64,1),filter .2s,box-shadow .25s}
+.btn:active,.cat:active,.menu:active{transform:scale(.94)}
+.menu{border-radius:50%}
+select,.filters label,.af input:not([type=checkbox]):not([type=file]),.af textarea,.af select{border-radius:12px}
+.card,.cat,.land,.empty,.arow,.prod img{border-radius:18px}
+.card{border:.5px solid var(--line);box-shadow:0 1px 2px rgba(4,31,78,.05),0 8px 22px rgba(4,31,78,.07)}
+.card:hover{box-shadow:0 2px 4px rgba(4,31,78,.06),0 14px 30px rgba(4,31,78,.12)}
+.cat{box-shadow:0 1px 2px rgba(4,31,78,.04)}
+.toast{border-radius:999px}
+.rv{transition:opacity .6s ease,transform .85s cubic-bezier(.22,1,.36,1)}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important;scroll-behavior:auto!important}.rv{opacity:1!important;transform:none!important}}
+</style>
+</head>
+<body>
+<header><div class="wrap bar">
+<a class="logo" href="#/" aria-label="VARIALIA, início"><svg class="lg" viewBox="290 190 490 520" aria-hidden="true"><path fill="currentColor" d="M380 343H465L553 565L643 343H728L587 695H520Z"/><path fill="#D9B664" d="M345 303C290 400 300 520 390 590C450 635 540 635 640 590C700 562 740 520 765 467C680 520 580 566 500 568C400 570 320 480 345 303Z"/><path fill="#D9B664" d="M364 207 L382 231 L411 222 L394 247 L411 272 L382 263 L364 287 L363 257 L335 247 L363 237Z"/></svg><b>VARIALIA</b></a>
+<form class="search" role="search" onsubmit="return false"><input id="q" type="search" placeholder="Pesquisar produtos" aria-label="Pesquisar produtos" autocomplete="off"></form>
+<button class="menu" aria-label="Abrir menu" aria-expanded="false" id="mb">☰</button>
+<nav id="nav" aria-label="Principal"><a href="#/">Início</a><a href="#/achadinhos">Achadinhos</a><a href="#/categorias">Categorias</a><a href="#/ofertas">Ofertas</a></nav>
+</div></header>
+<main id="app" class="wrap" tabindex="-1"></main>
+<script type="application/json" id="data">[]</script>
+<footer><div class="wrap"><div class="cols">
+<div><a href="#/" style="display:flex;align-items:center;gap:8px;text-decoration:none"><svg class="lg" viewBox="290 190 490 520" aria-hidden="true"><path fill="currentColor" d="M380 343H465L553 565L643 343H728L587 695H520Z"/><path fill="#D9B664" d="M345 303C290 400 300 520 390 590C450 635 540 635 640 590C700 562 740 520 765 467C680 520 580 566 500 568C400 570 320 480 345 303Z"/><path fill="#D9B664" d="M364 207 L382 231 L411 222 L394 247 L411 272 L382 263 L364 287 L363 257 L335 247 L363 237Z"/></svg><b style="font-family:Poppins;letter-spacing:.12em">VARIALIA</b></a>
+<p>Pequenos achados, grandes ideias. Vitrine de produtos úteis encontrados em lojas parceiras.</p>
+<p style="font-size:.8rem">A Varialia participa de programas de afiliados. Podemos receber uma comissão pelas compras realizadas por meio de determinados links, sem custo adicional para você. Preços, condições e disponibilidade são definidos pela loja de destino. Como Associado da Amazon, a Varialia ganha com compras qualificadas.</p></div>
+<div><b>Navegação</b><a href="#/">Início</a><a href="#/categorias">Categorias</a><a href="#/contato">Contato</a></div>
+<div><b>Legal</b><a href="#/privacidade">Política de Privacidade</a><a href="#/termos">Termos de Uso</a><a href="#/admin" id="adm" style="display:none">Admin</a><a href="#/contato">Contato</a></div>
+</div></div></footer>
+<script>
+/* ===== CONFIGURAÇÃO (edite aqui) ===== */
+const CONFIG={contact:{email:'',tiktok:'',instagram:''},stores:[{n:'Shopee',b:'VER NA SHOPEE',h:['shopee.com.br','shp.ee','shope.ee']},{n:'Mercado Livre',b:'VER NO MERCADO LIVRE',h:['mercadolivre.com.br','mercadolivre.com','mercadolibre.com','meli.la']},{n:'Amazon',b:'VER NA AMAZON',h:['amazon.com.br','amazon.com','amzn.to','amzn.com','a.co']},{n:'AliExpress',b:'VER NO ALIEXPRESS',h:['aliexpress.com','aliexpress.us']}]};
+const CATS=[{id:"tec",name:"Tecnologia e acessórios",e:"🎧"},{id:"casa",name:"Casa e organização",e:"🧺"},{id:"cozinha",name:"Cozinha e utilidades",e:"🍳"},{id:"dia",name:"Acessórios para o dia a dia",e:"🎒"},{id:"beleza",name:"Beleza e cuidados pessoais",e:"🧴"},{id:"novidades",name:"Novidades",e:"✨"}];
+/* ===== CATÁLOGO (adicione/edite/remova itens; affiliateUrl = seu link real; price/previousPrice só se confirmados) ===== */
+const P=(id,name,description,category,e,featured,tags)=>({id,slug:id,name,description,category,emoji:e,affiliateUrl:"",price:null,previousPrice:null,priceUpdatedAt:null,featured,active:true,tags:tags||[],demo:true});
+const SEED=[
+P("suporte-celular-exemplo","Suporte de celular (exemplo)","Apoia o celular na mesa para assistir vídeos ou fazer chamadas.","tec","📱",true),
+P("fone-bluetooth-exemplo","Fone Bluetooth (exemplo)","Fone sem fio para o dia a dia, com estojo de recarga.","tec","🎧",false,["novidade"]),
+P("organizador-gavetas-exemplo","Organizador de gavetas (exemplo)","Divide e organiza utensílios e itens pequenos.","casa","🗂️",true),
+P("cesto-multiuso-exemplo","Cesto multiuso (exemplo)","Guarda brinquedos, roupas ou produtos de limpeza.","casa","🧺",false),
+P("potes-hermeticos-exemplo","Kit de potes herméticos (exemplo)","Conserva alimentos secos organizados na cozinha.","cozinha","🥣",true),
+P("fatiador-exemplo","Fatiador de legumes (exemplo)","Facilita o preparo de saladas e refeições.","cozinha","🥕",false),
+P("necessaire-exemplo","Necessaire compacta (exemplo)","Leva itens de higiene com praticidade na bolsa.","dia","👝",false),
+P("garrafa-termica-exemplo","Garrafa térmica (exemplo)","Mantém a bebida na temperatura por mais tempo.","dia","🧋",true,["novidade"]),
+P("porta-escovas-exemplo","Porta-escovas (exemplo)","Mantém o banheiro organizado e higienizado.","beleza","🪥",false),
+P("massageador-facial-exemplo","Massageador facial (exemplo)","Acessório de autocuidado para a rotina de skincare.","beleza","💆",false,["novidade"]),
+P("luminaria-exemplo","Luminária de mesa (exemplo)","Iluminação prática para estudos e trabalho.","novidades","💡",true,["novidade"])
+];
+/* ===== LÓGICA ===== */
+let PRODUCTS=SEED;try{const d=document.getElementById('data').textContent.trim();if(d)PRODUCTS=JSON.parse(d)}catch(e){}
+const $=s=>document.querySelector(s),app=$("#app");
+const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const brl=n=>n.toLocaleString("pt-BR",{style:"currency",currency:"BRL"});
+const catOf=id=>CATS.find(c=>c.id===id)||{name:"Outros",e:"🛍️"};
+const storeOf=u=>{try{const x=new URL(u);if(x.protocol!=='https:')return null;return CONFIG.stores.find(s=>s.h.some(h=>x.hostname===h||x.hostname.endsWith('.'+h)))||null}catch(e){return null}};const okUrl=u=>!!storeOf(u);
+const hasPrice=p=>typeof p.price==="number"&&p.price>0;
+const isOffer=p=>hasPrice(p)&&typeof p.previousPrice==="number"&&p.previousPrice>p.price&&!!p.priceUpdatedAt;
+const active=()=>PRODUCTS.filter(p=>p.active);
+const art=p=>{const bg=["#DCE8DF","#F4F0E8","#E8EEF5"][p.id.length%3];return"data:image/svg+xml,"+encodeURIComponent(`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400"><rect width="400" height="400" fill="${bg}"/><circle cx="200" cy="200" r="130" fill="#fff" opacity=".7"/><text x="200" y="245" font-size="140" text-anchor="middle">${p.emoji}</text></svg>`)};
+const imgOf=p=>p.image||art(p);
+const priceHtml=p=>hasPrice(p)?`<div class="price">${brl(p.price)}${isOffer(p)?`<s>${brl(p.previousPrice)}</s>`:""}</div>`:`<div class="note">Preço: consulte na Shopee</div>`;
+const cta=(p,big)=>okUrl(p.affiliateUrl)?`<a class="btn" ${big?'style="text-align:center"':""} href="${esc(p.affiliateUrl)}" target="_blank" rel="sponsored noopener noreferrer">${storeOf(p.affiliateUrl).b}</a>`:`<span class="btn" aria-disabled="true" role="link" tabindex="0" onclick="toast('Produto de exemplo: coloque seu link de afiliado no catálogo.')" title="Link de afiliado ainda não configurado">LINK NÃO CONFIGURADO</span>`;
+const card=p=>`<article class="card"><a href="#/produto/${esc(p.slug)}" aria-label="${esc(p.name)}"><img src="${imgOf(p)}" alt="${esc(p.name)}" loading="lazy" width="400" height="400"></a><div class="b"><span class="tag">${esc(catOf(p.category).name)}</span>${p.demo?'<span class="demo">Exemplo, não é produto real</span>':""}${isOffer(p)?'<span class="demo" style="background:var(--orange);color:#14243A">Oferta</span>':""}<h3><a href="#/produto/${esc(p.slug)}">${esc(p.name)}</a></h3><p>${esc(p.description)}</p>${priceHtml(p)}${okUrl(p.affiliateUrl)?cta(p)+'<span class="note">Link de afiliado · '+storeOf(p.affiliateUrl).n+'</span>':`<a class="btn alt" href="#/produto/${esc(p.slug)}">VER DETALHES</a>`}</div></article>`;
+let st={q:"",cat:"",sort:"az",offers:false};
+function meta(t,d){document.title=t;let m=document.querySelector('meta[name=description]');m.content=d;document.querySelector('meta[property="og:title"]').content=t;document.querySelector('meta[property="og:description"]').content=d}
+function list(){let r=active();const q=st.q.trim().toLowerCase();
+if(q)r=r.filter(p=>(p.name+" "+p.description+" "+p.tags.join(" ")).toLowerCase().includes(q));
+if(st.cat)r=r.filter(p=>p.category===st.cat);if(st.offers)r=r.filter(isOffer);
+r.sort((a,b)=>st.sort==="az"?a.name.localeCompare(b.name,"pt"):st.sort==="pa"?(a.price??1e12)-(b.price??1e12):(b.price??-1)-(a.price??-1));
+const g=$("#grid");if(!g)return;
+g.innerHTML=!active().length?`<div class="empty" style="grid-column:1/-1"><span>📦</span><h3>Catálogo vazio</h3><p>Nenhum produto cadastrado ainda.</p></div>`:r.length?r.map(card).join(""):`<div class="empty" style="grid-column:1/-1"><span>🔎</span><h3>Nada encontrado</h3><p>${st.offers?"Ainda não há ofertas verificadas.":"Tente outro termo ou limpe os filtros."}</p><a class="btn" href="#/achadinhos" onclick="st.q='';st.cat='';st.offers=false;$('#q').value='';if($('#fc'))$('#fc').value='';if($('#fo'))$('#fo').checked=false;list();return false">Limpar filtros</a></div>`;
+$("#cnt")&&($("#cnt").textContent=r.length+" produto(s)")}
+function catalog(title){const anyP=active().some(hasPrice),anyO=active().some(isOffer);
+meta(title+" | VARIALIA","Explora achadinhos e produtos úteis de lojas parceiras na VARIALIA.");
+return`<section><div class="sh"><div><span class="eyebrow">Catálogo</span><h1 style="font-size:clamp(1.6rem,5vw,2.4rem)">${title}</h1></div><span id="cnt" class="note"></span></div>
+<div class="filters"><select id="fc" aria-label="Categoria"><option value="">Todas as categorias</option>${CATS.map(c=>`<option value="${c.id}" ${st.cat===c.id?"selected":""}>${c.name}</option>`).join("")}</select>
+<select id="fs" aria-label="Ordenar"><option value="az">A a Z</option>${anyP?'<option value="pa">Menor preço</option><option value="pd">Maior preço</option>':""}</select>
+${anyO?`<label><input type="checkbox" id="fo" ${st.offers?"checked":""}> Ofertas verificadas</label>`:""}</div>
+<div id="grid" class="grid" aria-live="polite"></div></section>`}
+function wire(){const c=$("#fc");if(!c)return;c.onchange=()=>{st.cat=c.value;list()};$("#fs").value=st.sort;$("#fs").onchange=e=>{st.sort=e.target.value;list()};const o=$("#fo");o&&(o.onchange=()=>{st.offers=o.checked;list()});list()}
+const featured=()=>active().filter(p=>p.featured);
+function home(){meta("VARIALIA | Pequenos achados, grandes ideias.","Produtos úteis, novidades e achadinhos para facilitar tua rotina.");
+const f=featured().slice(0,4);
+return`<section class="hero"><div><span class="eyebrow">Descobre. Compara. Aproveita.</span><h1 style="margin:10px 0 14px">Pequenos achados, grandes ideias.</h1><p>Produtos úteis, novidades e achadinhos para facilitar tua rotina.</p><div class="ctas"><a class="btn" href="#destaques" data-scroll="destaques">EXPLORAR ACHADINHOS</a><a class="btn alt" href="#/novidades">VER NOVIDADES</a></div></div>
+<div class="collage" aria-hidden="true">${f.slice(0,2).map(p=>`<img src="${imgOf(p)}" alt="">`).join("")}</div></section>
+<section><div class="sh"><h2>Categorias</h2></div><div class="cats">${CATS.map(c=>`<a class="cat" href="#/categoria/${c.id}"><span aria-hidden="true">${c.e}</span><b>${c.name}</b></a>`).join("")}</div></section>
+<section id="destaques"><div class="sh"><div><span class="eyebrow">Seleção</span><h2>Achadinhos que merecem tua atenção</h2></div></div><div class="grid">${featured().map(card).join("")||'<div class="empty" style="grid-column:1/-1">Nenhum destaque no momento.</div>'}</div></section>
+<section><div class="land"><div><h3>Vindo do TikTok?</h3><p>Vê os achadinhos mais recentes em um só lugar.</p></div><a class="btn" href="#/novidades">VER NOVIDADES</a></div></section>`}
+function product(slug){const p=active().find(x=>x.slug===slug);
+if(!p){meta("Produto não encontrado | VARIALIA","");return`<div class="page"><div class="empty"><span>🧭</span><h1>Produto não encontrado</h1><p>Ele pode ter saído do catálogo.</p><a class="btn" href="#/achadinhos">Ver achadinhos</a></div></div>`}
+meta(p.name+" | VARIALIA",p.description);const rel=active().filter(x=>x.category===p.category&&x.id!==p.id).slice(0,4);
+return`<p class="crumb"><a href="#/">Início</a> › <a href="#/categoria/${p.category}">${esc(catOf(p.category).name)}</a></p><section class="prod"><img src="${imgOf(p)}" alt="${esc(p.name)}" width="600" height="600"><div class="info"><span class="tag">${esc(catOf(p.category).name)}</span><h1 style="font-size:clamp(1.5rem,4vw,2.2rem)">${esc(p.name)}</h1>${p.demo?'<span class="demo">Produto de exemplo, sem link real</span>':""}<p style="color:var(--grey)">${esc(p.description)}</p>${priceHtml(p)}${p.priceUpdatedAt?`<span class="note">Preço atualizado em ${esc(new Date(p.priceUpdatedAt).toLocaleDateString("pt-BR"))}</span>`:""}${cta(p,1)}<p class="note">Link de afiliado. Preço e disponibilidade podem mudar na loja de destino.</p></div></section>${rel.length?`<section><div class="sh"><h2>Produtos relacionados</h2></div><div class="grid">${rel.map(card).join("")}</div></section>`:""}`}
+const legal={privacidade:["Política de Privacidade","A Varialia não coleta dados pessoais por padrão e não usa rastreadores sem seu consentimento. Ao clicar no botão de compra, você sai do site e passa a seguir a política de privacidade da loja de destino. [Complete este texto com os dados do responsável antes de divulgar.]"],termos:["Termos de Uso","A Varialia é uma vitrine de links de afiliados: não vende produtos, não processa pagamentos nem entrega mercadorias. A compra, o preço, o prazo e a garantia são de responsabilidade da loja de destino. [Revise este texto antes de divulgar.]"]};
+function page(k){const c=CONFIG.contact;if(k==="contato"){meta("Contato | VARIALIA","Fale com a VARIALIA.");return`<div class="page"><h1>Contato</h1>${c.email||c.tiktok||c.instagram?`<p>${c.email?`E-mail: ${esc(c.email)}<br>`:""}${c.tiktok?`TikTok: ${esc(c.tiktok)}<br>`:""}${c.instagram?`Instagram: ${esc(c.instagram)}`:""}</p>`:'<p>Informações de contato ainda não configuradas.</p>'}</div>`}
+const [t,b]=legal[k];meta(t+" | VARIALIA",t);return`<div class="page"><h1>${t}</h1><p>${b}</p></div>`}
+const io="IntersectionObserver" in window?new IntersectionObserver(es=>es.forEach(x=>{if(x.isIntersecting){x.target.classList.add("in");io.unobserve(x.target)}}),{threshold:.08}):null;
+function toast(m){const t=document.createElement("div");t.className="toast";t.setAttribute("role","status");t.textContent=m;document.body.appendChild(t);setTimeout(()=>t.remove(),2600)}
+function reveal(){app.querySelectorAll("section").forEach(s=>{s.classList.add("rv");io?io.observe(s):s.classList.add("in")})}
+document.addEventListener("click",e=>{const a=e.target.closest("[data-scroll]");if(!a)return;e.preventDefault();const t=document.getElementById(a.dataset.scroll);t&&t.scrollIntoView({behavior:"smooth",block:"start"})});
+function route(){const h=(location.hash||"#/").slice(1).split("/").filter(Boolean),[a,b]=h;$("#nav").classList.remove("open");$("#mb").setAttribute("aria-expanded","false");
+document.querySelectorAll("nav a").forEach(x=>x.removeAttribute("aria-current"));
+let html;
+if(!a)html=home();
+else if(a==="achadinhos"){st.cat="";st.offers=false;html=catalog("Achadinhos")}
+else if(a==="ofertas"){st.cat="";st.offers=true;html=catalog("Ofertas")}
+else if(a==="novidades"){st.cat="novidades";st.offers=false;html=catalog("Novidades")}
+else if(a==="categoria"){st.cat=b||"";st.offers=false;html=catalog(catOf(b).name)}
+else if(a==="categorias"){meta("Categorias | VARIALIA","Todas as categorias.");html=`<section><div class="sh"><h1>Categorias</h1></div><div class="cats">${CATS.map(c=>`<a class="cat" href="#/categoria/${c.id}"><span>${c.e}</span><b>${c.name}</b></a>`).join("")}</div></section>`}
+else if(a==="produto")html=product(b);
+else if(a==="admin")html=adminPage();
+else if(legal[a]||a==="contato")html=page(a);
+else{meta("Página não encontrada | VARIALIA","");html=`<div class="page"><div class="empty"><span>🧭</span><h1>Página não encontrada</h1><a class="btn" href="#/">Voltar ao início</a></div></div>`}
+app.innerHTML=html;window.scrollTo({top:0,behavior:"instant"});wire();reveal();adminWire();if(["achadinhos","ofertas","novidades","categoria"].includes(a)){const f=app.querySelector(".filters");f&&setTimeout(()=>f.scrollIntoView({behavior:"smooth",block:"start"}),150)}
+const nl=document.querySelector(`nav a[href="#/${a==="novidades"||a==="categoria"?"categorias":a||""}"]`);nl&&nl.setAttribute("aria-current","page")}
+/* ao sair de achadinhos/ofertas, limpar filtros herdados */
+addEventListener("hashchange",()=>{const a=(location.hash||"#/").split("/")[1];if(a!=="categoria"&&a!=="novidades"&&st.cat&&a!=="achadinhos")st.cat="";if(a!=="ofertas"&&st.offers&&a!=="achadinhos")st.offers=false;route()});
+$("#mb").onclick=()=>{const n=$("#nav"),o=n.classList.toggle("open");$("#mb").setAttribute("aria-expanded",o)};
+$("#q").oninput=e=>{st.q=e.target.value;if(!$("#grid")){location.hash="#/achadinhos"}else list()};
+let OWNER=false,ed=null,dirty=false,pulled=false;
+const LS={get(k){try{return localStorage.getItem(k)||''}catch(e){return ''}},set(k,v){try{localStorage.setItem(k,v)}catch(e){}},del(k){try{localStorage.removeItem(k)}catch(e){}}};
+const GH=()=>({repo:LS.get('vr_repo'),tok:LS.get('vr_tok')});
+OWNER=!!(GH().repo&&GH().tok);
+const b64=s=>btoa(unescape(encodeURIComponent(s)));
+const unb64=s=>decodeURIComponent(escape(atob(s.replace(/\s/g,''))));
+async function ghReq(path,method,body){const g=GH();return fetch('https://api.github.com/repos/'+g.repo+'/contents/'+path,{method:method||'GET',headers:Object.assign({'Authorization':'Bearer '+g.tok,'Accept':'application/vnd.github+json'},body?{'Content-Type':'application/json'}:{}),body:body?JSON.stringify(body):undefined})}
+async function loadProducts(){try{const r=await fetch('products.json?v='+Date.now(),{cache:'no-store'});if(r.ok){const j=await r.json();if(Array.isArray(j))PRODUCTS=j}}catch(e){}}
+async function pull(){try{const r=await ghReq('products.json');if(r.ok){const j=await r.json();const a=JSON.parse(unb64(j.content));if(Array.isArray(a))PRODUCTS=a}}catch(e){}}
+function adminPage(){meta('Admin | VARIALIA','Área restrita.');ed=null;
+if(!OWNER)return`<div class='page'><h1>Admin</h1><form id='lf' class='af'><input id='lr' placeholder='Repositório (usuario/nome-do-repo)' autocapitalize='off' autocomplete='off' required><input id='lt' type='password' placeholder='Token do GitHub' autocomplete='off' required><button class='btn'>ENTRAR</button></form><p class='note'>O token fica salvo só neste aparelho.</p></div>`;
+if(!pulled){pulled=true;pull().then(()=>{if(location.hash==='#/admin')route()})}
+return`<section><div class='sh'><h1>Admin</h1><span class='note'>${PRODUCTS.length} produto(s) <button class='btn alt sm' id='lo' type='button'>Sair</button></span></div>${dirty?`<button class='btn' id='asv' style='width:100%;margin-bottom:12px'>PUBLICAR ALTERAÇÕES</button>`:''}<form id='af' class='af'><input id='an' placeholder='Nome do produto' required><input id='al' type='url' placeholder='Link de afiliado (Shopee, Mercado Livre, Amazon ou AliExpress)' required><textarea id='ad' rows='2' placeholder='Descrição curta'></textarea><select id='ac'>${CATS.map(c=>`<option value='${c.id}'>${c.name}</option>`).join('')}</select><div class='two'><input id='ap' type='number' step='0.01' min='0' placeholder='Preço (opcional)'><input id='aq' type='number' step='0.01' min='0' placeholder='Preço anterior (opcional)'></div><label class='note'>Foto do produto <input id='af2' type='file' accept='image/*'></label><label class='note'><input type='checkbox' id='ag'> Destacar na página inicial</label><button class='btn' id='as'>SALVAR NO SITE</button><button type='button' class='btn alt' id='ax' style='display:none'>Cancelar edição</button></form><div id='alist'>${PRODUCTS.map(p=>`<div class='arow'><img src='${imgOf(p)}' alt=''><b>${esc(p.name)}</b><button class='btn alt sm' data-a='ed' data-id='${esc(p.id)}'>Editar</button><button class='btn alt sm' data-a='del' data-id='${esc(p.id)}'>Excluir</button></div>`).join('')}</div></section>`}
+function shrink(f){return new Promise((ok,no)=>{const r=new FileReader();r.onerror=no;r.onload=()=>{const i=new Image();i.onerror=no;i.onload=()=>{const s=Math.min(1,640/Math.max(i.width,i.height)),c=document.createElement('canvas');c.width=Math.round(i.width*s);c.height=Math.round(i.height*s);const x=c.getContext('2d');x.fillStyle='#fff';x.fillRect(0,0,c.width,c.height);x.drawImage(i,0,0,c.width,c.height);ok(c.toDataURL('image/jpeg',.78))};i.src=r.result};r.readAsDataURL(f)})}
+const h32=s=>{let h=5381;for(let i=0;i<s.length;i++)h=((h<<5)+h+s.charCodeAt(i))|0;return (h>>>0).toString(36)};
+const UP={};
+async function upImg(p){const raw=p.image.split(',')[1],name='img/'+p.id+'-'+h32(raw)+'.jpg';if(UP[name])return name;const g=await ghReq(name);
+if(g.status===404){const r=await ghReq(name,'PUT',{message:'Foto '+p.name,content:raw});if(!r.ok)throw new Error('foto: '+r.status)}else if(!g.ok)throw new Error('foto: '+g.status);UP[name]=1;return name}
+async function saveAll(){const out=[];for(const p of PRODUCTS){const q=Object.assign({},p);if(typeof q.image==='string'&&q.image.indexOf('data:image')===0)q.image=await upImg(p);out.push(q)}
+let sha;const g=await ghReq('products.json');if(g.ok)sha=(await g.json()).sha;else if(g.status!==404)throw new Error('GitHub '+g.status);
+const r=await ghReq('products.json','PUT',{message:'Atualiza catálogo',content:b64(JSON.stringify(out,null,1)),sha});
+if(!r.ok){const t=await r.json().catch(()=>({}));throw new Error(t.message||('GitHub '+r.status))}}
+async function persist(m){const b=document.getElementById('as')||document.getElementById('asv');b&&(b.disabled=true);try{await saveAll();dirty=false;toast(m);route()}catch(x){toast('Não consegui salvar: '+((x&&x.message)||'erro'))}if(b)b.disabled=false}
+function adminWire(){const lf=document.getElementById('lf');
+if(lf){lf.onsubmit=async e=>{e.preventDefault();const repo=document.getElementById('lr').value.trim().replace(/^https?:\/\/github\.com\//,'').replace(/\/+$/,''),tok=document.getElementById('lt').value.trim();
+try{const r=await fetch('https://api.github.com/repos/'+repo,{headers:{'Authorization':'Bearer '+tok,'Accept':'application/vnd.github+json'}});const j=await r.json();
+if(!r.ok)return toast('Repositório ou token inválido.');
+if(j.permissions&&!j.permissions.push)return toast('Esse token não tem permissão de escrita.');
+LS.set('vr_repo',repo);LS.set('vr_tok',tok);OWNER=true;pulled=false;document.getElementById('adm').style.display='block';route()}catch(x){toast('Sem conexão com o GitHub.')}};return}
+const f=document.getElementById('af');if(!f)return;const g=i=>document.getElementById(i);
+g('lo').onclick=()=>{LS.del('vr_repo');LS.del('vr_tok');OWNER=false;pulled=false;document.getElementById('adm').style.display='none';route()};
+const reset=()=>{ed=null;f.reset();g('ax').style.display='none';g('as').textContent='SALVAR NO SITE'};g('ax').onclick=reset;const sv=g('asv');if(sv)sv.onclick=()=>persist('Alterações publicadas. O site atualiza em 1 a 2 minutos.');
+f.onsubmit=async e=>{e.preventDefault();const link=g('al').value.trim();
+if(!okUrl(link))return toast('Link inválido. Use um link https de Shopee, Mercado Livre, Amazon ou AliExpress.');
+const old=PRODUCTS.find(p=>p.id===ed);let img=old?old.image||'':'';const file=g('af2').files[0];
+if(file){try{img=await shrink(file)}catch(x){return toast('Não consegui ler a foto.')}}
+const name=g('an').value.trim(),cat=g('ac').value,pr=parseFloat(g('ap').value),pq=parseFloat(g('aq').value),has=pr>0,id=old?old.id:'p'+Date.now().toString(36);
+const p={id,slug:old?old.slug:(name.toLowerCase().normalize('NFD').replace(/[^\x00-\x7F]/g,'').replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,'')||'produto')+'-'+id.slice(-3),name,description:g('ad').value.trim(),category:cat,emoji:catOf(cat).e,image:img,affiliateUrl:link,price:has?pr:null,previousPrice:has&&pq>pr?pq:null,priceUpdatedAt:has?(old&&old.price===pr&&old.priceUpdatedAt?old.priceUpdatedAt:new Date().toISOString().slice(0,10)):null,featured:g('ag').checked,active:true,tags:old?old.tags:[],demo:false};
+if(old)PRODUCTS[PRODUCTS.indexOf(old)]=p;else PRODUCTS.unshift(p);
+route();await persist('Salvo! O site atualiza em 1 a 2 minutos.')};
+g('alist').onclick=async e=>{const b=e.target.closest('button[data-a]');if(!b)return;const id=b.dataset.id,p=PRODUCTS.find(x=>x.id===id);if(!p)return;
+if(b.dataset.a==='del'){if(b.dataset.c!=='1'){b.dataset.c='1';b.textContent='Confirmar?';setTimeout(()=>{b.dataset.c='';b.textContent='Excluir'},3000);return}
+PRODUCTS=PRODUCTS.filter(x=>x.id!==id);dirty=true;const y=scrollY;route();scrollTo({top:y,behavior:'instant'});return}
+ed=id;g('an').value=p.name;g('al').value=p.affiliateUrl||'';g('ad').value=p.description||'';g('ac').value=p.category;g('ap').value=p.price||'';g('aq').value=p.previousPrice||'';g('ag').checked=!!p.featured;g('as').textContent='ATUALIZAR PRODUTO';g('ax').style.display='block';f.scrollIntoView({behavior:'smooth',block:'start'})}}
+loadProducts().finally(()=>{if(OWNER)document.getElementById('adm').style.display='block';route()});
+</script>
+
+
+</body></html>
