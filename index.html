@@ -260,11 +260,11 @@ const r=await ghReq('products.json','PUT',{message:'Atualiza catálogo',content:
 if(!r.ok){const t=await r.json().catch(()=>({}));throw new Error(t.message||('GitHub '+r.status))}}
 async function persist(m){const b=document.getElementById('as')||document.getElementById('asv');b&&(b.disabled=true);try{await saveAll();dirty=false;toast(m);route()}catch(x){toast('Não consegui salvar: '+((x&&x.message)||'erro'))}if(b)b.disabled=false}
 function adminWire(){const lf=document.getElementById('lf');
-if(lf){lf.onsubmit=async e=>{e.preventDefault();const repo=document.getElementById('lr').value.trim().replace(/^https?:\/\/github\.com\//,'').replace(/\/+$/,''),tok=document.getElementById('lt').value.trim();
+if(lf){lf.onsubmit=async e=>{e.preventDefault();const repo=document.getElementById('lr').value.replace(/[^\x21-\x7E]/g,'').replace(/^https?:\/\/github\.com\//,'').replace(/\/+$/,''),tok=document.getElementById('lt').value.replace(/[^\x21-\x7E]/g,'');
 try{const r=await fetch('https://api.github.com/repos/'+repo,{headers:{'Authorization':'Bearer '+tok,'Accept':'application/vnd.github+json'}});const j=await r.json();
 if(!r.ok)return toast('Repositório ou token inválido.');
 if(j.permissions&&!j.permissions.push)return toast('Esse token não tem permissão de escrita.');
-LS.set('vr_repo',repo);LS.set('vr_tok',tok);OWNER=true;pulled=false;document.getElementById('adm').style.display='block';route()}catch(x){toast('Sem conexão com o GitHub.')}};return}
+LS.set('vr_repo',repo);LS.set('vr_tok',tok);OWNER=true;pulled=false;document.getElementById('adm').style.display='block';route()}catch(x){toast('Erro: '+((x&&x.message)||x))}};return}
 const f=document.getElementById('af');if(!f)return;const g=i=>document.getElementById(i);
 g('lo').onclick=()=>{LS.del('vr_repo');LS.del('vr_tok');OWNER=false;pulled=false;document.getElementById('adm').style.display='none';route()};
 const reset=()=>{ed=null;f.reset();g('ax').style.display='none';g('as').textContent='SALVAR NO SITE'};g('ax').onclick=reset;const sv=g('asv');if(sv)sv.onclick=()=>persist('Alterações publicadas. O site atualiza em 1 a 2 minutos.');
